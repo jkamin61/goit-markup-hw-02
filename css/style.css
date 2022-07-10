@@ -23,21 +23,17 @@ body {
 }
 
 .header a:hover,
-address:hover {
+.bottom-site:hover,
+.bottom-contact:hover,
+.main-site a:hover {
     color: var(--select-bgcolor);
     cursor: pointer;
 }
 
 .header a:focus,
-address:hover {
-    color: var(--select-bgcolor);
-}
-
-.bottom-site a:hover {
-    color: var(--select-bgcolor);
-}
-
-.bottom-site a:focus {
+.bottom-contact:focus,
+.bottom-site:focus,
+.main-site a:focus {
     color: var(--select-bgcolor);
 }
 
